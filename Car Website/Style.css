@@ -1,0 +1,156 @@
+a{
+  color: #d6d6d6;
+}
+
+img {
+	width: 300px;
+}
+body{
+	background-color: #2132BE;
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #96C3F8;
+}
+header {
+	background-color: #999999;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+  background-color: #111;
+}
+main{
+	padding: 0 10px;
+}
+/*This is for the home page */
+#home-col-1{
+  border-radius: 25px;
+	display: inline-block;
+	width: 200px;
+	background-color: #0DB3FF;
+  vertical-align: top;
+  margin-top: 10px;
+  text-align: center;
+}
+#home-col-2{
+  /* (for some reason this isnt working) align-content: center;*/
+	display: inline-block;
+	width: 485px;
+	background-color: #340089;
+  vertical-align: top;
+  padding-left: 130px;
+  padding-right: 130px;
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+#home-col-3{
+  /* (for some reason this isnt working) align-content: center;*/
+	display: inline-block;
+	width: 300px;
+	background-color: #340089;
+  vertical-align: top;
+  padding-left: 130px;
+  padding-right: 130px;
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+.home-row-2{
+  border-radius: 25px;
+  text-align: center;
+	display: inline-block;
+	width: 293px;
+	background-color: #3224C8;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+#home-row-2-col-2{
+  border-radius: 25px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+/*This is for the About page */
+#about-col-1{
+  border-radius: 25px;
+	display: inline-block;
+	width: 550px;
+	margin-right: 20px;
+	background-color: grey;
+	padding: 0 20px;
+}
+#about-col-2{
+	display: inline-block;
+	width: 210px;
+	background-color: 340089;
+	padding: 0 20px;
+}
+#about-col-1-col-1{
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+}
+#about-col-1-col-2{
+	display: inline-block;
+	width: 336px;
+}
+#project-col-1{
+  margin-top: 10px;
+  border-radius: 25px;
+	display: inline-block;
+	width: 660px;
+	margin-right: 20px;
+	background-color: grey;
+	padding: 0 20px;
+}
+#image-devider{
+  height: 20px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-position: center;
+  background-image: honl.jpg;
+}
+.splitpost{
+  height: 10px;
+  width: 100%;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: image(braker.jpg);
+}
+footer {
+	background-color: #3224C8;
+}
+footer div{
+	width: 200px;
+	margin: 0 auto;
+	border: 3px solid #black;
+}
+.rotate90 {
+  transform: rotate(90deg);
+}
