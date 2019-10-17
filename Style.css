@@ -103,6 +103,7 @@ main{
 	margin-right: 20px;
 	background-color: grey;
 	padding: 0 20px;
+  padding-bottom: 20px;
 }
 #about-col-2{
 	display: inline-block;
@@ -127,6 +128,7 @@ main{
 	margin-right: 20px;
 	background-color: grey;
 	padding: 0 20px;
+  vertical-align: top;
 }
 #image-devider{
   height: 20px;
@@ -153,4 +155,11 @@ footer div{
 }
 .rotate90 {
   transform: rotate(90deg);
+}
+#about-col-900{
+	display: inline-block;
+	width: 210px;
+	background-color: 340089;
+	padding-top: 20px;
+  border-radius: 25px;
 }
